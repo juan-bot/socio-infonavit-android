@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">InfonaTest</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="open_drawer">Drawer Open</string>
+    <string name="close_drawer">Drawer Close</string>
+    <string name="obligatori_field">Campo Obligatorio</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="forget_pass">Olvide mi contraseña</string>
+    <string name="login">login</string>
+    <string name="example">ejemplo</string>
+    <string name="btn_want">Lo Quiero</string>
+    <string name="text_load">...</string>
+    <string name="lo_quiero">Lo Quiero</string>
+    <string name="my_benevits">Mis Benevits</string>
+    <string name="close_sesion">Cerrar Sesion</string>
+
+</resources>

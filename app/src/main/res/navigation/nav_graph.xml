@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/benefitsFrg2">
+    <fragment
+        android:id="@+id/benefitsFrg2"
+        android:name="com.example.infonatest.presentation.view.fragment.BenevitsFrg"
+        android:label="fragment_benevits"
+        tools:layout="@layout/fragment_benevits" >
+        <action
+            android:id="@+id/action_benefitsFrg2_to_loginAct"
+            app:destination="@id/loginAct" />
+    </fragment>
+    <activity
+        android:id="@+id/loginAct"
+        android:name="com.example.infonatest.presentation.view.activity.LoginAct"
+        android:label="activity_login"
+        tools:layout="@layout/activity_login" />
+</navigation>
